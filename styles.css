@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
 }
 
-nav, ul, footer, #hero_main, #info, #info_tab_container, #cta {
+nav, ul, footer, #hero_main, #info, #info_tab_container, #cta, #cta_button {
     display: flex;
 }
 
@@ -131,6 +131,7 @@ footer {
 
 #cta_button {
     flex: 1 350px;
+    align-items: flex-end;
 }
 
 #cta_button button {
