@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
 }
 
-nav, ul, #hero_main, #info, #info_tab_container, #cta {
+nav, ul, footer, #hero_main, #info, #info_tab_container, #cta {
     display: flex;
 }
 
@@ -39,11 +39,15 @@ h1, #logo {
     color: #F9FAF8;
 }
 
-#hero, #footer {
+footer {
+    justify-content: center;
+}
+
+#hero, footer {
     background-color: #1F2937;
 }
 
-#hero, #footer, #hero button, #cta {
+#hero, #footer, #hero button, #cta, footer p {
     color: white;
 }
 
