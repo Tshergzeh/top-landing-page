@@ -1,9 +1,8 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
 }
 
-body, h1 {
+body, h1, #cta_text h2, #cta_text p {
     margin: 0;
 }
 
@@ -11,7 +10,7 @@ nav {
     justify-content: space-between;
 }
 
-nav, ul, #hero_main, #info, #info_tab_container {
+nav, ul, #hero_main, #info, #info_tab_container, #cta {
     display: flex;
 }
 
@@ -44,7 +43,7 @@ h1, #logo {
     background-color: #1F2937;
 }
 
-#hero, #footer, #hero button {
+#hero, #footer, #hero button, #cta {
     color: white;
 }
 
@@ -97,4 +96,44 @@ h1, #logo {
     max-width: 150px;
     border: 5px solid #3882F6;
     border-radius: 15px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 48px 160px;
+}
+
+#quote_text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+#quote_author {
+    text-align: right;
+    font-weight: bold;
+}
+
+#cta {
+    margin: 80px 120px;
+    border-radius: 5px;
+    padding: 32px;
+}
+
+#cta_text {
+    flex: 1 760px;
+    padding-left: 80px;
+}
+
+#cta_button {
+    flex: 1 350px;
+}
+
+#cta_button button {
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 8px 24px;
 }
